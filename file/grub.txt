@@ -25,6 +25,7 @@
         background_image /boot/grub/menu.png
         
 
-        grub_gfxmodepayload=keep    
+        grub_gfxmodepayload=keep 
+        insmod memdisk   
 menu_color_highlight=black/yellow
 
