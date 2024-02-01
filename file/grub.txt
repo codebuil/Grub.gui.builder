@@ -1,1 +1,2 @@
+menu_color_highlight=white/yellow
 
