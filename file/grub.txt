@@ -1,2 +1,30 @@
-menu_color_highlight=white/yellow
+        set grub_gfxmodepayload=keep
+        set grub_gfxmode=640x480x4
+        grub_gfxmodepayload=keep
+        set grub_gfxmode=640x480x4
+        set grub_terminal=fgxterm
+        set grub_video_backend="vga"
+
+        set vga=320x200x8
+        vga=320x200x8
+        
+        set gfxmode=640x480x4
+        set grub_gfxmode=640x480x4
+        set gfxmodepayload=keep
+        insmod vbe
+        insmod vga
+        insmod all_video
+        insmod gfxterm
+        terminal_input console
+        terminal_output gfxterm
+        loadfont /boot/grub/fonts/unicode.pf2
+        
+        insmod png
+        set grub_background="/boot/grub/menu.png"
+        set grub_background=/boot/grub/menu.png
+        background_image /boot/grub/menu.png
+        
+
+        grub_gfxmodepayload=keep    
+menu_color_highlight=black/yellow
 
