@@ -1,15 +1,15 @@
         set grub_gfxmodepayload=keep
-        set grub_gfxmode=640x480x4
+        set grub_gfxmode=640x480x32
         grub_gfxmodepayload=keep
-        set grub_gfxmode=640x480x4
+        set grub_gfxmode=640x480x32
         set grub_terminal=fgxterm
         set grub_video_backend="vga"
 
-        set vga=320x200x8
-        vga=320x200x8
+        set vga=640x480x32
+        vga=640x480x32
         
-        set gfxmode=640x480x4
-        set grub_gfxmode=640x480x4
+        set gfxmode=640x480x32
+        set grub_gfxmode=640x480x32
         set gfxmodepayload=keep
         insmod vbe
         insmod vga
