@@ -97,7 +97,7 @@ class BareboneBuilder:
             self.execute_command("mkdir -p ./file/isodir/boot/grub",True)
             self.execute_command("mkdir -p ./file/isodir/boot/grub/i386-pc",True)
             self.execute_command("mkdir -p ./file/isodir/boot/grub/fonts",True)
-            self.execute_command("cp /tmp/kernel.bin ./file/isodir/boot/kernel.bin",True)
+           # self.execute_command("cp /tmp/kernel.bin ./file/isodir/boot/kernel.bin",True)
             self.execute_command("cp ./file/grub.cfg ./file/isodir/boot/grub/grub.cfg",True)
             self.execute_command("cp ./file/menu.png ./file/isodir/boot/grub",True)
             self.execute_command("cp /boot/grub/i386-pc/all_video.mod ./file/isodir/boot/grub/i386-pc",True)
