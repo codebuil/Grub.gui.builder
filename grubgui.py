@@ -66,7 +66,7 @@ class BareboneBuilder:
         if filename:
             f1=open("./grub.cfg","a")
             ff="""menuentry \"$1\" {
-	linux /boot/$1\n}\n"""
+	 multiboot /boot/$1 \n}\n"""
             fn=filename
             l=True
             while l:
